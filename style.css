@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&family=Raleway&family=Rubik&display=swap");
+button, button:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.font-baloo {
+    font-family: "Baloo Thambi 2", cursive;
+}
+
+.font-rale {
+    font-family: "Raleway", cursive;
+}
+
+.font-rubik {
+    font-family: "Rubik", cursive;
+}
+
+.font-size-12 {
+    font-size: 12px;
+}
+
+.font-size-14 {
+    font-size: 14px;
+}
+
+.font-size-16 {
+    font-size: 16px;
+}
+
+.font-size-20 {
+    font-size: 20px;
+}
+
+.color-primary {
+    color: #003859;
+}
+
+.color-primary-bg {
+    background: #003859;
+}
+
+.color-second {
+    color: #00A5C4;
+}
+
+.color-second-bg {
+    background: #00A5C4;
+}
+
+.color-yellow {
+    color: #FFD289;
+}
+
+.color-yellow-bg {
+    background: #FFD289;
+}
+
+#top-sale .owl-carousel .item .product a {
+    overflow: hidden;
+}
+#top-sale .owl-carousel .item .product img {
+    transition: transform 0.5s ease;
+}
+#top-sale .owl-carousel .item .product img:hover {
+    transform: scale(1.1);
+}
+#top-sale .owl-carousel .owl-nav button {
+    position: absolute;
+    top: 30%;
+    outline: none;
+}
+#top-sale .owl-carousel .owl-nav button.owl-prev {
+    left: 0;
+}
+#top-sale .owl-carousel .owl-nav button.owl-prev span,
+#top-sale .owl-carousel .owl-nav button.owl-next span {
+    font-size: 35px;
+    color: #003859;
+    padding: 0 1rem;
+}
+#top-sale .owl-carousel .owl-nav button.owl-prev span {
+    margin-left: -4rem;
+}
+#top-sale .owl-carousel .owl-nav button.owl-next {
+    right: 0;
+}
+#top-sale .owl-carousel .owl-nav button.owl-next span {
+    margin-right: -4rem;
+}
+
+#special-price .grid .grid-item {
+    margin-right: 1.2rem;
+    margin-top: 1rem;
+}
+
+#prod{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-btn {
+    background-color: white;
+    color: black;
+    border: 1px solid lightgray;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.custom-btn:hover {
+    background-color: lightblue;
+    color: white;
+    border-color: lightblue;
+}
+
+.live-search-result {
+    display: none;
+    position: absolute;
+    top: calc(100% + 5px);
+    left: 0;
+    background-color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1000;
+    width: 100%;
+    max-height: 200px;
+    overflow-y: auto;
+}
+.live-search-result ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.live-search-result ul li {
+    padding: 8px 12px;
+}
+.live-search-result ul li a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+.live-search-result ul li a img {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+.live-search-result ul li:hover {
+    background-color: #f1f1f1;
+}
+
+.search-results {
+    position: absolute;
+    background: white;
+    width: 100%;
+    border: 1px solid #ccc;
+    max-height: 200px;
+    overflow-y: auto;
+    z-index: 1000;
+}
+
+.search-results ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.search-results li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.search-results li:hover {
+    background-color: #f0f0f0;
+}

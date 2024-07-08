@@ -1,0 +1,1 @@
+<?php echo count($product->getData('cart'));
